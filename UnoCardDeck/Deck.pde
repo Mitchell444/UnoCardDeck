@@ -6,7 +6,9 @@ public class Deck {
   }
   
   public void show() {
-    
+    for (int i = 0; i < cards.length; i++){
+     cards[i].show(20*i,150); 
+    }
   }
   
   public void deal(Hand hand) {
